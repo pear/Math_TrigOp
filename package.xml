@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE package SYSTEM "../package.dtd">
+<!-- do not use the "Type" attribute here, that one is only for
+     generated package.xml files -->
+<package>
+
+  <name>Math_TrigOp</name>
+  <summary>Supplementary trigonometric functions</summary>
+  <description>
+   Static class with methods that implement supplementary trigonometric,
+   inverse trigonometric, hyperbolic, and inverse hyperbolic functions.
+  </description>
+
+  <maintainers>
+    <maintainer>
+      <user>jmcastagnetto</user>
+      <name>Jesus M. Castagnetto</name>
+      <email>jmcastagnetto@php.net</email>
+      <role>lead</role>
+    </maintainer>
+  </maintainers>
+
+  <release>
+    <license>PHP</license>
+    <version>1.0</version>
+    <date>2002-11-19</date>
+    <notes>
+       Initial release under PEAR.
+    </notes>
+    <state>stable</state>
+    <filelist>
+      <dir name="/" baseinstalldir="Math">
+       <file role="php">TrigOp.php</file>
+      </dir>
+    </filelist>
+  </release>
+  <changelog>
+    <release>
+    </release>
+  </changelog>
+</package>
