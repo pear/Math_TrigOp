@@ -45,7 +45,7 @@ class Math_TrigOp {/*{{{*/
 	 * Calculates the secant of the parameter
 	 * 
 	 * @param float $x
-	 * @returns mixed A floating point on success, PEAR_Error object otherwise
+	 * @return mixed A floating point on success, PEAR_Error object otherwise
 	 * @access public
 	 */
 	function sec($x) {/*{{{*/
@@ -62,7 +62,7 @@ class Math_TrigOp {/*{{{*/
 	 * Calculates the cosecant of the parameter
 	 * 
 	 * @param float $x
-	 * @returns mixed A floating point on success, PEAR_Error object otherwise
+	 * @return mixed A floating point on success, PEAR_Error object otherwise
 	 * @access public
 	 */
 	function csc($x) {/*{{{*/
@@ -79,7 +79,7 @@ class Math_TrigOp {/*{{{*/
 	 * Calculates the cotangent of the parameter
 	 * 
 	 * @param float $x
-	 * @returns mixed A floating point on success, PEAR_Error object otherwise
+	 * @return mixed A floating point on success, PEAR_Error object otherwise
 	 * @access public
 	 */
 	function cot($x) {/*{{{*/
@@ -98,7 +98,7 @@ class Math_TrigOp {/*{{{*/
 	 * Calculates the hyperbolic secant of the parameter
 	 * 
 	 * @param float $x
-	 * @returns mixed A floating point on success, PEAR_Error object otherwise
+	 * @return mixed A floating point on success, PEAR_Error object otherwise
 	 * @access public
 	 */
 	function sech ($x) {/*{{{*/
@@ -115,7 +115,7 @@ class Math_TrigOp {/*{{{*/
 	 * Calculates the hyperbolic cosecant of the parameter
 	 * 
 	 * @param float $x
-	 * @returns mixed A floating point on success, PEAR_Error object otherwise
+	 * @return mixed A floating point on success, PEAR_Error object otherwise
 	 * @access public
 	 */
 	function csch ($x) {/*{{{*/
@@ -132,7 +132,7 @@ class Math_TrigOp {/*{{{*/
 	 * Calculates the hyperbolic cotangent of the parameter
 	 * 
 	 * @param float $x
-	 * @returns mixed A floating point on success, PEAR_Error object otherwise
+	 * @return mixed A floating point on success, PEAR_Error object otherwise
 	 * @access public
 	 */
 	function coth ($x) {/*{{{*/
@@ -151,7 +151,7 @@ class Math_TrigOp {/*{{{*/
 	 * Calculates the inverse hyperbolic secant of the parameter
 	 * 
 	 * @param float $x
-	 * @returns mixed A floating point on success, PEAR_Error object otherwise
+	 * @return mixed A floating point on success, PEAR_Error object otherwise
 	 * @access public
 	 */
 	function asech ($x) {/*{{{*/
@@ -167,7 +167,7 @@ class Math_TrigOp {/*{{{*/
 	 * Calculates the inverse hyperbolic cosecant of the parameter
 	 * 
 	 * @param float $x
-	 * @returns mixed A floating point on success, PEAR_Error object otherwise
+	 * @return mixed A floating point on success, PEAR_Error object otherwise
 	 * @access public
 	 */
 	function acsch ($x) {/*{{{*/
@@ -185,7 +185,7 @@ class Math_TrigOp {/*{{{*/
 	 * Calculates the inverse hyperbolic cotangent of the parameter
 	 * 
 	 * @param float $x
-	 * @returns mixed A floating point on success, PEAR_Error object otherwise
+	 * @return mixed A floating point on success, PEAR_Error object otherwise
 	 * @access public
 	 */
 	function acoth ($x) {/*{{{*/
