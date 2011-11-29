@@ -1,41 +1,77 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE package SYSTEM "http://pear.php.net/dtd/package-1.0">
-<!-- do not use the "Type" attribute here, that one is only for
-     generated package.xml files -->
-<package>
-
-  <name>Math_TrigOp</name>
-  <summary>Supplementary trigonometric functions</summary>
-  <description>
-   Static class with methods that implement supplementary trigonometric,
-   inverse trigonometric, hyperbolic, and inverse hyperbolic functions.
-  </description>
-
-  <maintainers>
-    <maintainer>
-      <user>jmcastagnetto</user>
-      <name>Jesus M. Castagnetto</name>
-      <email>jmcastagnetto@php.net</email>
-      <role>lead</role>
-    </maintainer>
-  </maintainers>
-
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.4" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0 http://pear.php.net/dtd/tasks-1.0.xsd http://pear.php.net/dtd/package-2.0 http://pear.php.net/dtd/package-2.0.xsd">
+ <name>Math_TrigOp</name>
+ <channel>pear.php.net</channel>
+ <summary>Supplementary trigonometric functions</summary>
+ <description>Static class with methods that implement supplementary trigonometric,
+inverse trigonometric, hyperbolic, and inverse hyperbolic functions.</description>
+ <lead>
+  <name>Jesus M. Castagnetto</name>
+  <user>jmcastagnetto</user>
+  <email>jmcastagnetto@php.net</email>
+  <active>yes</active>
+ </lead>
+ <date>2011-11-29</date>
+ <time>23:15:08</time>
+ <version>
+  <release>1.0</release>
+  <api>1.0</api>
+ </version>
+ <stability>
+  <release>stable</release>
+  <api>stable</api>
+ </stability>
+ <license uri="http://www.php.net/license">PHP</license>
+ <notes>
+Initial release under PEAR.
+ </notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="/" md5sum="b420fe026a84b5f1d188b6ac647ac654" name="Math/TrigOp.php" role="php" />
+   <file baseinstalldir="/" md5sum="5ab050c424ba97270f11fdf650abf34c" name="README" role="data" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>4.0.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.0b1</min>
+   </pearinstaller>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
   <release>
-    <license>PHP</license>
-    <version>1.0</version>
-    <date>2002-11-19</date>
-    <notes>
-       Initial release under PEAR.
-    </notes>
-    <state>stable</state>
-    <filelist>
-      <dir name="/" baseinstalldir="Math">
-       <file role="php">TrigOp.php</file>
-      </dir>
-    </filelist>
+   <version>
+    <release />
+    <api />
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2011-11-29</date>
+   <license uri="http://www.php.net/license">PHP</license>
+   <notes>
+no release notes
+   </notes>
   </release>
-  <changelog>
-    <release>
-    </release>
-  </changelog>
+  <release>
+   <version>
+    <release>1.0</release>
+    <api>1.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2011-11-29</date>
+   <license uri="http://www.php.net/license">PHP</license>
+   <notes>
+Initial release under PEAR.
+   </notes>
+  </release>
+ </changelog>
 </package>
